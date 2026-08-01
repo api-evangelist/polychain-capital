@@ -1,8 +1,23 @@
 aid: polychain-capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/polychain-capital.png
 name: Polychain Capital
-description: Polychain Capital is a company surfaced as a portfolio company of union-square-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Polychain Capital is a San Francisco-based investment firm founded in 2016 by Olaf Carlson-Wee
+  that manages actively-managed portfolios of blockchain assets and cryptocurrencies, and invests as a
+  venture firm in protocols and companies advancing the global adoption of digital assets. It surfaces in
+  the API Evangelist network as a portfolio company of Union Square Ventures. The firm publishes no public
+  API, developer portal, or documentation surface; this profile captures its identity and probed domain
+  security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/polychain-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Venture Capital
+- Cryptocurrency
+- Blockchain
+- Digital Assets
+- Investment
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +43,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/polychain-capital-domain-security.yml
 - type: Website
   url: https://polychain.capital
+- type: LinkedIn
+  url: https://www.linkedin.com/company/polychain-capital
+- type: Careers
+  url: https://jobs.polychain.capital
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
